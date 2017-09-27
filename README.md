@@ -20,4 +20,5 @@ This is the alpha version of a basic js library for interacting with osc data se
 The example provided shows a real-time line graph of all 5 brainwaves as well as a blink event. Videos below show similar examples, but not the exact one in this repo.
 
 https://www.youtube.com/watch?v=cYULvalaUdI
+
 https://www.youtube.com/watch?v=EK4kR-YLFgk
