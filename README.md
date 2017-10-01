@@ -1,9 +1,12 @@
-Updated version of README:
+**README(updated version)**:
 
 visual audio biofeedback using EEG Sensor, JavaScript
 
+
 MuseJS
+
 This is the alpha version of a basic js library for interacting with osc data sent from muse-io.
+
 
 #Requirements
 
@@ -24,6 +27,7 @@ It’s recommended that you download the uncompressed version
 **Biofeedback app.atml**
 Please download the Biofeedback.zip file 
 
+
 #How to use 
 
 - Turn on your muse headband and pair up via bluetooth with your device
@@ -33,6 +37,7 @@ Please download the Biofeedback.zip file
 - Now you should be able to track your brainwave on the web page. The Muse.io window will allow you to view the percent of background noise, adjust your headband if the noise is too big. When all four coordinates of background noise are below 1%, you should see visualization of your brainwave steadily on the web page. 
 - As you became more concentrated with the texts, you should be able to see change in visualization of the texts. And there will be a sound alert every minute for notification of time. 
 - Please note that these are in development and may change in future iterations. Suggestions and opinions are highly welcomed. 
+
 
 #Example
 
