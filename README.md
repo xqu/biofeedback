@@ -25,7 +25,7 @@ https://jquery.com/download/
 It’s recommended that you download the uncompressed version
 
 **Biofeedback app.atml**
-Please download the Biofeedback.zip file at the top of THIS page
+Please download the MuseBandBiofeedback-master.zip file at the top of THIS page
 
 
 #How to use 
