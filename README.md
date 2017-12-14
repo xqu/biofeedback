@@ -1,11 +1,8 @@
 **README(updated version)**:
 
-visual audio biofeedback using EEG Sensor, JavaScript
+**The newest version of the app is in the thinking_cap 1210.zip**
 
-
-MuseJS
-
-This is the alpha version of a basic js library for interacting with osc data sent from muse-io.
+audio biofeedback using EEG Sensor, JavaScript
 
 
 #Requirements
@@ -24,23 +21,18 @@ Please download from here:
 https://jquery.com/download/
 It’s recommended that you download the uncompressed version
 
-**Biofeedback app.atml**
-Please download the MuseBandBiofeedback-master.zip file at the top of THIS page
+**app**
+Please download the thinking_cap 1210.zip file in the code section at the top of THIS page
 
 
 #How to use 
 
 - Turn on your muse headband and pair up via bluetooth with your device
-- On the command line(terminal/shell), enter "muse-io --osc osc.udp://localhost:3333 --dsp" to run MuseIO on port 3333 sending UDP
+- On the command line(terminal/shell), enter "muse-io --osc osc.tcp://localhost:4444" to run MuseIO on port 4444
+- On the command line, enter "muse-player -l 4444 -F Desktop/recording.muse -s 3333" to open up muse-player, let it save the data via the port being connected and sending data to port 3333 at the same time.
 - On the command line, navigate to the location of osc-web by entering “cd osc-web” and then enter "node bridge.js" to run osc-web
-- Open app.html from Biofeedback.zip
-- Now you should be able to track your brainwave on the web page. The Muse.io window will allow you to view the percent of background noise, adjust your headband if the noise is too big. When all four coordinates of background noise are below 1%, you should see visualization of your brainwave steadily on the web page. 
-- As you became more concentrated with the texts, you should be able to see change in visualization of the texts. And there will be a sound alert every minute for notification of time. 
+- Open app.html from thinking_cap 1210.zip
+- Now you can submit different categories as you wish depending on the cognitive activities you are doing during any period of time, and also compare those to what the app would predict. Averages of your brainwave for each submitted categories can be viewed in the console only for now.
+- If your muse band is experiencing bad connection with your skin, you will hear audio notification of which node is not connected correctly. 
 - Please note that these are in development and may change in future iterations. Suggestions and opinions are highly welcomed. 
 
-
-#Example
-
-The example provided shows a real-time line graph of all 5 brainwaves as well as a blink event. Videos below show similar examples, but not the exact one in this repo.
-https://www.youtube.com/watch?v=cYULvalaUdI
-https://www.youtube.com/watch?v=EK4kR-YLFgk
